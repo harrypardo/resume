@@ -1,2 +1,3 @@
-# resume
-My Website Resume
+# My Website Resume
+
+Using React!
