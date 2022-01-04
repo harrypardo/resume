@@ -1,7 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
+import { Experience } from '../components/Experience/Experience';
 import { ProfileIcon } from '../components/ProfileIcon/ProfileIcon';
 import { Navbar } from '../components/Sidebar/Navbar';
+import { Skills } from '../components/Skills/Skills';
 
 const MainContainer = styled.main`
   display: flex;
@@ -13,6 +15,7 @@ const ResumeContainer = styled.div`
   grid-template-columns: repeat(2, 1fr);
   margin: 50px;
   width: 100%;
+  gap: 2rem;
 `;
 
 export function MainView() {
@@ -21,8 +24,8 @@ export function MainView() {
       <Navbar />
       <ResumeContainer>
         <ProfileIcon />
-        <article>Hello!</article>
-        <article>Hello!</article>
+        <Skills />
+        <Experience />
       </ResumeContainer>
     </MainContainer>
   );

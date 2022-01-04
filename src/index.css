@@ -18,3 +18,8 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Against';
+  src: local('Against'), url(./fonts/AgainstRegular-axJY9.ttf) format('truetype');
+}
