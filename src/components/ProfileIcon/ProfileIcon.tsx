@@ -19,7 +19,7 @@ const StyledAbout = styled.div`
 
 const Title = styled.span`
   font-size: 32px;
-  font-family: Against, serif;
+  font-family: Goldleaf, serif;
 `;
 
 export function ProfileIcon() {
@@ -27,7 +27,7 @@ export function ProfileIcon() {
     <StyledArticle>
       <img src={ProfilePic} alt="Profile" width="300" height="300" />
       <StyledAbout>
-        <Title>About me</Title>
+        <Title>ABOUT ME</Title>
         <p> Hi I&apos;m Harry Pardo. </p>
       </StyledAbout>
     </StyledArticle>

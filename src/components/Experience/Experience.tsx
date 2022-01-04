@@ -8,13 +8,13 @@ const StyledArticle = styled.article`
 
 const Title = styled.span`
   font-size: 32px;
-  font-family: Against, serif;
+  font-family: Goldleaf, serif;
 `;
 
 export function Experience() {
   return (
     <StyledArticle>
-      <Title>Experience</Title>
+      <Title>EXPERIENCE</Title>
     </StyledArticle>
   );
 }

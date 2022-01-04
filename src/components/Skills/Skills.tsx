@@ -8,13 +8,13 @@ const StyledArticle = styled.article`
 
 const Title = styled.span`
   font-size: 32px;
-  font-family: Against, serif;
+  font-family: Goldleaf, serif;
 `;
 
 export function Skills() {
   return (
     <StyledArticle>
-      <Title>Skills</Title>
+      <Title>SKILLS</Title>
     </StyledArticle>
   );
 }

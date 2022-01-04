@@ -20,6 +20,11 @@ code {
 }
 
 @font-face {
-  font-family: 'Against';
-  src: local('Against'), url(./fonts/AgainstRegular-axJY9.ttf) format('truetype');
+  font-family: 'Millenia';
+  src: local('Millenia'), url(./fonts/MilleniaPersonalUse-w1OB8.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Goldleaf';
+  src: local('Goldleaf'), url(./fonts/GoldleafBoldPersonalUseBold-eZ4dO.ttf) format('truetype');
 }
