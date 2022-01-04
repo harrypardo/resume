@@ -1,7 +1,8 @@
 import React from 'react';
+import { MainView } from './views/MainView';
 
 function App() {
-  return <div>Hello World!</div>;
+  return <MainView />;
 }
 
 export default App;
