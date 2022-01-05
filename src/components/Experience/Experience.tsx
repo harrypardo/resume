@@ -2,13 +2,10 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledArticle = styled.article`
-  border: 1px solid;
   padding: 20px;
-  background-color: #36454f;
-  border: 10px solid #eec643;
-  border-radius: 5px;
+  border: 10px solid white;
 
-  font-family: Roboto, serif;
+  font-family: RobotoMono, serif;
 `;
 
 const Title = styled.span`

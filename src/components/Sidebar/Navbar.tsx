@@ -10,9 +10,6 @@ const NavContainer = styled.nav`
   flex-direction: column;
   gap: 1.5rem;
   padding: 20px;
-  border: 1px solid #034f82;
-  box-shadow: 2px 5px #000080;
-  background-color: #36454f;
 `;
 
 const NavIcon = styled(CgMenu)`

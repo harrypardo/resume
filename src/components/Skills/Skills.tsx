@@ -2,15 +2,14 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledArticle = styled.article`
-  border: 10px solid #eec643;
   padding: 20px;
-  background-color: #36454f;
-  border-radius: 5px;
-  font-family: Roboto, serif;
+  border: 10px solid white;
+
+  font-family: RobotoMono, serif;
 `;
 
 const Title = styled.span`
-  font-size: 32px;
+  font-size: 48px;
   color: gold;
 `;
 
@@ -25,6 +24,7 @@ const StyledList = styled.ul`
 const Content = styled.div`
   display: flex;
   flex-direction: column;
+  font-size: 22px;
 `;
 
 export function Skills() {

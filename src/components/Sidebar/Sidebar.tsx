@@ -8,7 +8,6 @@ const Container = styled.div`
   box-shadow: 5px 10px #000080;
   height: 100%;
   min-width: fit-content;
-  background-color: #36454f;
 `;
 
 export function Sidebar() {
