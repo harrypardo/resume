@@ -4,11 +4,16 @@ import styled from 'styled-components';
 const StyledArticle = styled.article`
   border: 1px solid;
   padding: 20px;
+  background-color: #36454f;
+  border: 10px solid #eec643;
+  border-radius: 5px;
+
+  font-family: Roboto, serif;
 `;
 
 const Title = styled.span`
   font-size: 32px;
-  font-family: Goldleaf, serif;
+  color: gold;
 `;
 
 export function Experience() {

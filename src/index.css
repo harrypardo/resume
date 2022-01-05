@@ -28,3 +28,14 @@ code {
   font-family: 'Goldleaf';
   src: local('Goldleaf'), url(./fonts/GoldleafBoldPersonalUseBold-eZ4dO.ttf) format('truetype');
 }
+
+@font-face {
+  font-family: 'LemonMilk';
+  src: local('LemonMilk'), url(./fonts/LemonMilkRegular-X3XE2.otf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Roboto';
+  src: local('Roboto'), url(./fonts/Roboto-Regular.ttf) format('truetype');
+}

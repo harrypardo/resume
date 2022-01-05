@@ -4,10 +4,11 @@ import styled from 'styled-components';
 const Container = styled.div`
   width: 200px;
   padding: 30px;
-  border: 1px solid;
+  border: 0 1px solid;
   box-shadow: 5px 10px #000080;
   height: 100%;
   min-width: fit-content;
+  background-color: #36454f;
 `;
 
 export function Sidebar() {
